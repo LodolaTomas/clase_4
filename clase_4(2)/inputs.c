@@ -1,18 +1,19 @@
 #include "inputs.h"
 
-int getInt(char mensaje[],int min,int max)
+int getInt(int* numero,char mensaje[],int min,int max)
 {
-    int numero;
-    printf("%s",mensaje);
-    scanf("%d",&numero);
+    int retorno=0;
 
-    while(numero<min || numero>max)
+    printf("%s",mensaje);
+    scanf("%d",numero);
+
+    while(*numero<min || *numero>max)
     {
         printf("ERROR. Re%s",mensaje);
-        scanf("%d",&numero);
+        scanf("%d",numero);
     }
 
-    return numero;
+    return retorno;
 }
 
 

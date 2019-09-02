@@ -15,8 +15,8 @@ int main()
     peso kg
     */
 
-    legajo= getInt("ingrese legajo:",0,1000);
-    nota= getInt("ingrese nota:",0,10);
+    getInt(&legajo,"ingrese legajo:",0,1000);
+    getInt(&nota,"ingrese nota:",0,10);
 
 
     printf("Ud ingreso: %d----%d",legajo,nota);
