@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1567434994 source:e:\clase_4(2)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inputs.h"
+
+1567434900 e:\clase_4(2)\inputs.h
+
